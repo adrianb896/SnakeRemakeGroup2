@@ -16,7 +16,7 @@ stages{
             }
             post {
                 success {
-                  emailext body: 'Email sent from Jenkins', subject: 'Test Email', to: 'adrianbernardino02@gmail.com'
+                  emailext body: 'Email sent from Jenkins', subject: 'Test Email', to: 'se481group2@gmail.com'
                 }
             }
         }
