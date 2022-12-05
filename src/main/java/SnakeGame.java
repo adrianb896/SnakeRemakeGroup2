@@ -19,6 +19,7 @@ public class SnakeGame extends JFrame {
 	 */
 	private static final long serialVersionUID = 6678292058307426314L;
 	// comment made here -Adrian
+	// another comment made for testing
 	/**
 	 * The number of milliseconds that should pass between each frame.
 	 */
