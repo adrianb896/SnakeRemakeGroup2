@@ -5,13 +5,13 @@ pipeline {
         maven 'local_maven'
     }
     parameters {
-         string(name: 'group2', defaultValue: '35.89.37.107', description: 'Remote Staging Server')
+         string(name: 'Group2', defaultValue: '35.89.37.107', description: 'Feedback Mechanism')
     }
 
 stages{
         stage("Build"){
             steps {
-                sh 'mvn clean package'
+                sh 'clean package'
                 echo "Building the project"
             }
             post {
